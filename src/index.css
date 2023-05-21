@@ -1,0 +1,98 @@
+
+.container-faded {
+	position: relative;
+	width: 50%;
+	display:inline-block;
+}
+
+.image {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	
+}
+
+.middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+	
+
+
+	
+}
+
+.container-faded:hover .image {
+	opacity: 0.3;
+}
+
+.container-faded:hover .middle {
+	opacity: 1;
+}
+
+.text {
+	background-color: #292825;
+	color: white;
+	font-size: 16px;
+	padding: 16px 32px;
+}
+
+.nav-link {
+	color: white;
+}
+
+
+.nav-link:hover {
+	color: #535bf2;
+}
+
+.navbar:hover {
+	color: #535bf2;
+}
+
+.font-link {
+	font-family: 'Kanit';
+  }
+
+  .purple{
+	color: #535bf2;
+  }
+
+
+
+.btn{
+	background-color: #535bf2;
+	border-color: black;
+	color: white;
+}
+
+
+
+.btn:hover{
+	background-color:rgb(130, 124, 250);
+}
+
+.btn-excluir:hover{
+	background-color: rgb(175, 7, 7);
+	color: white;
+}
+
+.a-home{
+	text-decoration: none;
+	color: white;
+	font-size: 1.5rem;
+	
+}
+
+.a-home:hover{
+	color: #535bf2;
+}
+
